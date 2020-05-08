@@ -1,0 +1,80 @@
+body {
+    background-color: rgba(89, 173, 241, 0.671);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 89vh;
+    color: #c1e2bb;
+}
+
+.clockframe {
+    background-color: black;
+    width: 500px;
+    height: 200px;
+    border: 10px solid rgba(93, 183, 218, 0.329);
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    -webkit-box-shadow: 10px 10px 43px 14px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 43px 14px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 43px 14px rgba(0, 0, 0, 0.75);
+}
+
+.date {
+    width: 200px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Pridi', serif;
+    font-size: 1.3rem;
+}
+
+.clock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    font-size: 11rem;
+    font-family: 'DM Serif Display', serif;
+}
+
+.hour {
+    width: 200px;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.separator {
+    width: 20px;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blink {
+    transform: scale(0);
+}
+
+.minutes {
+    width: 200px;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seconds {
+    width: 80px;
+    height: 170px;
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
